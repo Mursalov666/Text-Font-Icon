@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header a{
+    text-decoration: none;
+}
+
+#header{
+    overflow: auto;
+    padding: 35px 11rem;
+}
+
+#header .logo{
+    float: left;
+}
+
+#header .navbar{
+    float: right;
+}
+
+.logo a{
+    color: #000000E6 ;
+    font-size: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.navbar a{
+    margin-right: 20px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #0D6EFD;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+#Generate{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 17rem 0;
+}
+
+.generate-text h1{
+    font-size: 85px;
+    color: #fff;
+    width: 57%;
+    margin: auto;
+    height:max-content;
+}
+
+.generate-form input{
+    padding: 28px 202px 21px 15px;
+    width: 37%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.generate-form button{
+    margin-right: 20px;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #0D6EFD;
+    padding: 22px 20px;
+    font-size: 16px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid #0D6EFD;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+
+.br-all{
+    background: #fff;
+    padding: 40px 10px 0 50px;
+
+}
+
+.br-all .box .top i{
+    background-color: #fff;
+    color: #0D6EFD;
+    border-radius: 100%;
+    padding: 70px;
+    font-size: 80px;
+    margin: 110px ;
+}
+
+.br-all .box{
+    width: 100%;
+    float: left;
+    margin: 0 1% 120px;
+}
+
+.br-all .box{
+    width: 30%;
+    vertical-align: bottom;
+}
+
+.br-all .box .bottom {
+    text-align: center;
+}
+
+.br-all .bottom{
+    padding: 5px;
+}
+
+.br-all .bottom p{
+    width: 65%;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+.br-all .bottom h3{
+    font-size: 25px;
+}
+
+#text-img{
+    background-color:#797979 ;
+    padding: 90px auto;
+}
+
+#text-img .photo img{
+    width: 50%;
+    float: right;
+    padding-top: 0 0 300px ;
+}
+
+#text-img .text h2{
+    float: left;
+    align-items: center;
+    padding: 20px 20px;
+    width: 35%;
+    font-size: 35px;
+    color: #212529;
+}
